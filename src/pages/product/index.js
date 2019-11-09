@@ -29,7 +29,7 @@ export default class Product extends Component {
                 </p>
 
                 <p>
-                    <Link to='/ '>Voltar</Link>
+                    <Link to='/another-react-app '>Voltar</Link>
                 </p>
             </div>
         );

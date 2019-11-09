@@ -8,8 +8,8 @@ import Product from './pages/product';
 const Routes = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path='/' component={Main} />
-            <Route path='/products/:id' component={Product} />
+            <Route exact path='/another-react-app' component={Main} />
+            <Route path='/another-react-app/products/:id' component={Product} />
         </Switch>
     </BrowserRouter>
 );
